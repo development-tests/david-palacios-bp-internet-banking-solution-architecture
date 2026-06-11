@@ -1,0 +1,180 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="4C5_ieS1vfYigRteXuC6">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o9y29sy-o39JFftveJmA-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;arcSize=5;strokeColor=#007FFF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="1270" width="1090" x="110" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-20" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-21" connectable="0" parent="o9y29sy-o39JFftveJmA-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Invokes transfer use case&lt;/div&gt;&lt;div&gt;(REST/HTTPS)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1487" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;b&gt;Transfer API&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;Component&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Exponer endpoints REST&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;para transferencias.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="440" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-22" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-24" connectable="0" parent="o9y29sy-o39JFftveJmA-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Validates fraud policies" vertex="1">
+          <mxGeometry relative="1" x="0.5204" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-23" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-25" connectable="0" parent="o9y29sy-o39JFftveJmA-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Executes transfer business rules" vertex="1">
+          <mxGeometry relative="1" x="-0.0689" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;b&gt;Transfer Aplication Service&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Orquestación de casos&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;de uso.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="440" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;color: rgb(21, 21, 21);&quot;&gt;&lt;b&gt;Fraud&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(21, 21, 21);&quot;&gt;&lt;b&gt;Rules&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Validación antifraude.&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="140" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-26" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-27" connectable="0" parent="o9y29sy-o39JFftveJmA-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Reads frequent&amp;nbsp;&lt;/div&gt;&lt;div&gt;beneficiary&amp;nbsp;&lt;/div&gt;&lt;div&gt;data&lt;/div&gt;&lt;div&gt;(Cache Aside)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1106" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-49" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-50" connectable="0" parent="o9y29sy-o39JFftveJmA-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Executes debit/credit&amp;nbsp;&lt;/div&gt;&lt;div&gt;operation&lt;/div&gt;&lt;div&gt;(SOAP/HTTPS)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5045" y="-1" as="geometry">
+            <mxPoint x="14" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-51" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-52" connectable="0" parent="o9y29sy-o39JFftveJmA-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Processes interbank&amp;nbsp;&lt;/div&gt;&lt;div&gt;transfer&lt;/div&gt;&lt;div&gt;(ISO 20022)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3168" y="-1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-53" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Transfer Domain Service&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Reglas de negocio.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="440" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;b&gt;Redis Cache Provider&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cache Aside.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="920" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-34" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-35" connectable="0" parent="o9y29sy-o39JFftveJmA-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Persists transaction records" vertex="1">
+          <mxGeometry relative="1" x="0.0373" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica;&quot;&gt;&lt;b&gt;Transfer Repository&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Persistencia PostgreSQL.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="200" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica; text-align: start;&quot;&gt;&lt;b&gt;PostgreSQL&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="200" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica;&quot;&gt;&lt;b&gt;Core Connector&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;text-align: left; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Comunicación&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;text-align: left; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Core Bancario.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="770" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica;&quot;&gt;&lt;b&gt;ACH Connector&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;text-align: left; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Transferencias&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;interbancarias.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="770" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-38" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-39" connectable="0" parent="o9y29sy-o39JFftveJmA-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Publishes TransferCompleted Event" vertex="1">
+          <mxGeometry relative="1" x="-0.2488" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-40" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-41" connectable="0" parent="o9y29sy-o39JFftveJmA-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Publishes Audit Event" vertex="1">
+          <mxGeometry relative="1" x="-0.0857" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica;&quot;&gt;&lt;b&gt;Outbox Processor&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Implementar&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Outbox Pattern.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="430" y="1138" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-42" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-43" connectable="0" parent="o9y29sy-o39JFftveJmA-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Async Event Streaming" vertex="1">
+          <mxGeometry relative="1" x="-0.1798" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica;&quot;&gt;&lt;b&gt;Event Publisher&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Publicar eventos&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Kafka.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="290" y="1288" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-45" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-46" connectable="0" parent="o9y29sy-o39JFftveJmA-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Audit Trail Registration" vertex="1">
+          <mxGeometry relative="1" x="-0.2107" y="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica;&quot;&gt;&lt;b&gt;Audit Publisher&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Tipo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Component&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Responsabilidad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Publicar eventos&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: normal; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;de auditoría.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="570" y="1288" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-44" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica; text-align: start;&quot;&gt;Kafka&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="290" y="1488" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica; text-align: start;&quot;&gt;Audit Service&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="570" y="1628" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;strokeWidth=3;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica; text-align: start;&quot;&gt;Notification Service&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="290" y="1628" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;Transfer Service&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;(Container)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="860" y="209" as="geometry" />
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="131" as="sourcePoint" />
+            <mxPoint x="574" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-19" connectable="0" parent="o9y29sy-o39JFftveJmA-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Spring Boot Controller" vertex="1">
+          <mxGeometry relative="1" x="0.1527" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-47" edge="1" parent="1" source="o9y29sy-o39JFftveJmA-5" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.038;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=8 8;" target="o9y29sy-o39JFftveJmA-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="810" as="sourcePoint" />
+            <mxPoint x="450" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-48" connectable="0" parent="o9y29sy-o39JFftveJmA-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Stores transfer transaction&lt;/div&gt;&lt;div&gt;(JDBC/TLS)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1003" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o9y29sy-o39JFftveJmA-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ing. David Palacios&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="920" y="1620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

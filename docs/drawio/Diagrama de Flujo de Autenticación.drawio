@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="EGlO-vzGTdycfxAIXZfF">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-8" edge="1" parent="1" source="VF4tZykIaqlRnwWJ40YK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VF4tZykIaqlRnwWJ40YK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00CC00;strokeWidth=3;" value="&lt;b&gt;Cliente&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-9" edge="1" parent="1" source="VF4tZykIaqlRnwWJ40YK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VF4tZykIaqlRnwWJ40YK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;SPA / Mobile&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-10" edge="1" parent="1" source="VF4tZykIaqlRnwWJ40YK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="VF4tZykIaqlRnwWJ40YK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Authorization Code + PKCE&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Identity Provider&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;* MFA&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;* Passkey&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;* Face ID&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;* OTP&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-12" edge="1" parent="1" source="VF4tZykIaqlRnwWJ40YK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VF4tZykIaqlRnwWJ40YK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica; text-align: start;&quot;&gt;&lt;b&gt;JWT Access Token&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-13" edge="1" parent="1" source="VF4tZykIaqlRnwWJ40YK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VF4tZykIaqlRnwWJ40YK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica; text-align: start;&quot;&gt;&lt;b&gt;API Gateway&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvetica; text-align: start;&quot;&gt;&lt;b&gt;Microservices&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-11" edge="1" parent="1" source="VF4tZykIaqlRnwWJ40YK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.501;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="VF4tZykIaqlRnwWJ40YK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VF4tZykIaqlRnwWJ40YK-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Ing. David Palacios&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
